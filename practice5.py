@@ -8,7 +8,7 @@ print(python.replace("Python" , "java"))#파이썬문자를 자바문자로 바�
 index = python.index("n")#인덱스 자리 n자리 찾아줘라 그자리 번지수를 찾아줘라
 print(index)
 
-index = python.index("n", index + 1)#뒤에서부터 그니까 n이 5 니까  insex+1이 의미하는것은 n이란 문자를(5)에 있는거 다음부터 찾아라 
+index = python.index("n", index + 1)#뒤에서부터 그니까 n이 5 니까  index+1이 의미하는것은 n이란 문자를(5)에 있는거 다음부터 찾아라 
 print(index)
 
 print(python.find("java"))
@@ -20,7 +20,35 @@ print(python.count("n"))#이건 파이썬이란 단어안에 n이라는 글자�
 
 
 
+# \n:줄바꿈
 
 
+print("저는 \"나노코딩\"입니다.")
+
+# \r은 커서를 맨 앞으로 이동
+print("red Apple\rpine")
+
+ # \b 는 백스페이스 역활을 한다.
+
+sss = "http://naver.com"
+print(sss)
+aaa = sss.replace("http://naver.com","naver.com")
+
+print(aaa)
+aaa = aaa[:5]
+print(aaa)
+
+ccc = aaa[:3]
+print(ccc)
+
+ddd = len(aaa)
+print(ddd)
+
+eee=aaa.count("e")
+print(eee)
+
+print(ccc,ddd,eee,"!")
+#그지같이 만들었구만....ㅋㅋㅋㅋ
+#첫걸음은 위대하다.
 
 
